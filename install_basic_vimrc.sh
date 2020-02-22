@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-cd ~/.vim_runtime
-cat ~/.vim_runtime/vimrcs/basic.vim > ~/.vimrc
+cd ~/.vim
+cat ~/.vim/vimrcs/basic.vim > ~/.vimrc
 echo "Installed the Basic Vim configuration successfully! Enjoy :-)"
